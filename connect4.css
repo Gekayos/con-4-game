@@ -1,0 +1,32 @@
+#board td {
+    width: 75px;
+    height: 75px;
+    border: solid 1px #666;
+  }
+  
+  
+  .piece {
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  
+  .piece.p1 {
+    background-color: red;
+  }
+  
+  .piece.p2 {
+    background-color: yellow;
+  }
+  
+  
+  
+  #column-top td {
+    border: dashed 1px lightgray;
+  }
+  
+  #column-top td:hover {
+    background-color: whitesmoke;
+  }
+  
